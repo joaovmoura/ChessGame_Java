@@ -20,12 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67617547-5426-44e6-99e9-82c62ba7985f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/application/Program.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +48,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,17 +83,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="443" y="91" width="1024" height="840" key="#Project_Structure" timestamp="1593450622696">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="443" y="91" width="1024" height="840" key="#Project_Structure/0.0.1920.1030@0.0.1920.1030" timestamp="1593450622696" />
     <state x="682" y="206" width="546" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593449640781">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state x="682" y="206" width="546" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1593449640781" />
-    <state x="743" y="272" width="424" height="479" key="FileChooserDialogImpl" timestamp="1593450310932">
+    <state x="743" y="272" width="424" height="479" key="FileChooserDialogImpl" timestamp="1593640859029">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="743" y="272" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1593450310932" />
-    <state x="376" y="137" width="1157" height="748" key="new project wizard" timestamp="1593450301240">
+    <state x="743" y="272" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1593640859029" />
+    <state x="376" y="137" width="1157" height="748" key="new project wizard" timestamp="1593640886771">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="376" y="137" width="1157" height="748" key="new project wizard/0.0.1920.1030@0.0.1920.1030" timestamp="1593450301240" />
+    <state x="376" y="137" width="1157" height="748" key="new project wizard/0.0.1920.1030@0.0.1920.1030" timestamp="1593640886771" />
   </component>
 </project>
