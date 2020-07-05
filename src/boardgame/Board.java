@@ -46,30 +46,11 @@ public class Board {
         pieces[position.getRow()][position.getColumn()] = piece;
         piece.position = position;
     }
-    //minha implementacao
-   /* public boolean positionExists(int row, int column) throws BoardException{
-        if( row<0 || column<0 || column > columns || row > rows){
-            throw new BoardException("Position doesn't exist.");
-        }
-
-        return true;
-    }
-
-    public boolean thereIsAPiece(Position position) throws BoardException{
-        if (pieces[position.getRow()][position.getColumn()] != null){
-            throw new BoardException("There is a piece in this position")
-        }
-
-        return false;
-    }*/
-
-    //imp prof
 
     public boolean positionExists(int row, int column) {
         return row>=0 && row<rows && column>=0 && column<columns;
     }
 
-    //sobrecarregando
 
     public boolean positionExists(Position position){
        return positionExists(position.getRow(), position.getColumn());
@@ -80,5 +61,18 @@ public class Board {
         }
        return piece(position)!=null;
 
+    }
+
+    public Piece removePiece(Position position){
+        if(!positionExists(position)){
+            throw new BoardException("ERROR: Position doesn't exists.");
+        }
+        if (piece(position) == null){
+            return null;
+        }
+        Piece aux = piece(position);
+        aux.position = null;
+        pieces[position.getRow()][position.getColumn()] = null;
+        return aux;
     }
 }

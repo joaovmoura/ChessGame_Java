@@ -4,7 +4,11 @@ package application;
 
 import boardgame.Piece;
 import chess.ChessPiece;
+import chess.ChessPosition;
 import chess.Color;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class UI {
 
@@ -28,6 +32,17 @@ public class UI {
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
+    public static ChessPosition readChessPosition(Scanner sc){
+        try {
+            String s = sc.nextLine();
+            char column = s.charAt(0);
+            int row = Integer.parseInt(s.substring(1));
+            return new ChessPosition(column, row);
+        }catch (RuntimeException e){
+            throw new InputMismatchException("Invalid position!");
+        }
+        }
+
     public static void printBoard(ChessPiece[][] chessPieces) {
         for (int i = 0; i<chessPieces.length; i++) {
             System.out.print((8 - i) + " ");
@@ -37,6 +52,10 @@ public class UI {
             System.out.println();
         }
         System.out.print("  a b c d e f g h");
+    }
+    public static void clearScreen(){
+        for(int i = 0; i < 25; i++)
+            System.out.println("");
     }
 
     public static void printPiece(ChessPiece piece){
