@@ -54,8 +54,8 @@ public class UI {
         System.out.print("  a b c d e f g h");
     }
     public static void clearScreen(){
-        for(int i = 0; i < 25; i++)
-            System.out.println("");
+        for(int i = 0; i<25; i++)
+            System.out.println();
     }
 
     public static void printPiece(ChessPiece piece){
