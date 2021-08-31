@@ -5,6 +5,7 @@ Tabuleiro --> matriz de pieces, ou iniciar o jogo fazemos upcasting de chesspiec
 Peças --> Objetos contendo tabuleiro, posição (Pieces), contador de movimentos, cor - ENUM - (ChessPieces - subclasse de pieces) e nome(peças específicas) que é o representado por uma letra no método toString
 
 Posição:
+        
          Position --> poisição de tabuleiro(matriz)
          
          ChessPosition --> posição de xadrez como eh mostrada na tela(Ex:h8)
