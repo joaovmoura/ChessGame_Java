@@ -1,4 +1,4 @@
-# Chess_game_JAVA
+# Chess game
 
 Tabuleiro --> Matriz de peças. Ao iniciar o jogo fazemos upcasting de chesspieces p/ pieces
 
